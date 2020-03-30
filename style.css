@@ -3,10 +3,13 @@
 }
 
 body {
-	overflow: hidden;
+	overflow: scroll;
 	font-family: sans-serif;
 }
-
+.noscroll
+{
+	overflow: scroll;
+}
 @media ( max-width: 40rem ) {
 	.navigation button {
 		display: block;
